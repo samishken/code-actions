@@ -8,7 +8,7 @@ spec:
     source:
         repoURL: https://github.com/samishken/code-actions.git
         targetRevision: HEAD
-        path: helm/appcharts/templates
+        path: helm/appcharts
     destination:
         server: https://kubernetes.default.svc
         namespace: default
@@ -21,6 +21,6 @@ spec:
             prune: true
             selfHeal: true
         
-        
+
 
     
